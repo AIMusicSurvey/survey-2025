@@ -142,6 +142,7 @@ select
 @media screen and (max-width: 600px)
 {
   
+  /* IDs*/
   #wrapper
 { 
   background-color: #F8F8F8;
@@ -154,7 +155,7 @@ select
 
 }
 
-
+/*Classes*/
 .textbox
 {
   margin: auto;
@@ -178,6 +179,16 @@ select
 .textbox figcaption
 {
   font-size: smaller;
+}
+
+.questions
+{
+  text-align: left;
+}
+
+.questions textarea
+{
+  width: 250px;
 }
 
 
